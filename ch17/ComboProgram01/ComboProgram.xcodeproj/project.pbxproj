@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C8D0981B01C04400ACD6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D0971B01C04400ACD6BA /* AppDelegate.swift */; };
+		D3C8D09A1B01C04400ACD6BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C8D0991B01C04400ACD6BA /* Images.xcassets */; };
+		D3C8D09D1B01C04400ACD6BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C8D09B1B01C04400ACD6BA /* MainMenu.xib */; };
+		D3C8D0A91B01C04500ACD6BA /* ComboProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8D0A81B01C04500ACD6BA /* ComboProgramTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C8D0A31B01C04500ACD6BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C8D08A1B01C04400ACD6BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C8D0911B01C04400ACD6BA;
+			remoteInfo = ComboProgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C8D0921B01C04400ACD6BA /* ComboProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComboProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C8D0961B01C04400ACD6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C8D0971B01C04400ACD6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C8D0991B01C04400ACD6BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3C8D09C1B01C04400ACD6BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D3C8D0A21B01C04500ACD6BA /* ComboProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComboProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C8D0A71B01C04500ACD6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C8D0A81B01C04500ACD6BA /* ComboProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComboProgramTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C8D08F1B01C04400ACD6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C8D09F1B01C04500ACD6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C8D0891B01C04400ACD6BA = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0941B01C04400ACD6BA /* ComboProgram */,
+				D3C8D0A51B01C04500ACD6BA /* ComboProgramTests */,
+				D3C8D0931B01C04400ACD6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C8D0931B01C04400ACD6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0921B01C04400ACD6BA /* ComboProgram.app */,
+				D3C8D0A21B01C04500ACD6BA /* ComboProgramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C8D0941B01C04400ACD6BA /* ComboProgram */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0971B01C04400ACD6BA /* AppDelegate.swift */,
+				D3C8D0991B01C04400ACD6BA /* Images.xcassets */,
+				D3C8D09B1B01C04400ACD6BA /* MainMenu.xib */,
+				D3C8D0951B01C04400ACD6BA /* Supporting Files */,
+			);
+			path = ComboProgram;
+			sourceTree = "<group>";
+		};
+		D3C8D0951B01C04400ACD6BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0961B01C04400ACD6BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C8D0A51B01C04500ACD6BA /* ComboProgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0A81B01C04500ACD6BA /* ComboProgramTests.swift */,
+				D3C8D0A61B01C04500ACD6BA /* Supporting Files */,
+			);
+			path = ComboProgramTests;
+			sourceTree = "<group>";
+		};
+		D3C8D0A61B01C04500ACD6BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8D0A71B01C04500ACD6BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C8D0911B01C04400ACD6BA /* ComboProgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C8D0AC1B01C04500ACD6BA /* Build configuration list for PBXNativeTarget "ComboProgram" */;
+			buildPhases = (
+				D3C8D08E1B01C04400ACD6BA /* Sources */,
+				D3C8D08F1B01C04400ACD6BA /* Frameworks */,
+				D3C8D0901B01C04400ACD6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComboProgram;
+			productName = ComboProgram;
+			productReference = D3C8D0921B01C04400ACD6BA /* ComboProgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C8D0A11B01C04500ACD6BA /* ComboProgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C8D0AF1B01C04500ACD6BA /* Build configuration list for PBXNativeTarget "ComboProgramTests" */;
+			buildPhases = (
+				D3C8D09E1B01C04500ACD6BA /* Sources */,
+				D3C8D09F1B01C04500ACD6BA /* Frameworks */,
+				D3C8D0A01B01C04500ACD6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C8D0A41B01C04500ACD6BA /* PBXTargetDependency */,
+			);
+			name = ComboProgramTests;
+			productName = ComboProgramTests;
+			productReference = D3C8D0A21B01C04500ACD6BA /* ComboProgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C8D08A1B01C04400ACD6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Wallace Wang";
+				TargetAttributes = {
+					D3C8D0911B01C04400ACD6BA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D3C8D0A11B01C04500ACD6BA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D3C8D0911B01C04400ACD6BA;
+					};
+				};
+			};
+			buildConfigurationList = D3C8D08D1B01C04400ACD6BA /* Build configuration list for PBXProject "ComboProgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C8D0891B01C04400ACD6BA;
+			productRefGroup = D3C8D0931B01C04400ACD6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C8D0911B01C04400ACD6BA /* ComboProgram */,
+				D3C8D0A11B01C04500ACD6BA /* ComboProgramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C8D0901B01C04400ACD6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C8D09A1B01C04400ACD6BA /* Images.xcassets in Resources */,
+				D3C8D09D1B01C04400ACD6BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C8D0A01B01C04500ACD6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C8D08E1B01C04400ACD6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C8D0981B01C04400ACD6BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C8D09E1B01C04500ACD6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C8D0A91B01C04500ACD6BA /* ComboProgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C8D0A41B01C04500ACD6BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C8D0911B01C04400ACD6BA /* ComboProgram */;
+			targetProxy = D3C8D0A31B01C04500ACD6BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C8D09B1B01C04400ACD6BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C8D09C1B01C04400ACD6BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C8D0AA1B01C04500ACD6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3C8D0AB1B01C04500ACD6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3C8D0AD1B01C04500ACD6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComboProgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3C8D0AE1B01C04500ACD6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComboProgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3C8D0B01B01C04500ACD6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComboProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComboProgram.app/Contents/MacOS/ComboProgram";
+			};
+			name = Debug;
+		};
+		D3C8D0B11B01C04500ACD6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComboProgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComboProgram.app/Contents/MacOS/ComboProgram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C8D08D1B01C04400ACD6BA /* Build configuration list for PBXProject "ComboProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C8D0AA1B01C04500ACD6BA /* Debug */,
+				D3C8D0AB1B01C04500ACD6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C8D0AC1B01C04500ACD6BA /* Build configuration list for PBXNativeTarget "ComboProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C8D0AD1B01C04500ACD6BA /* Debug */,
+				D3C8D0AE1B01C04500ACD6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C8D0AF1B01C04500ACD6BA /* Build configuration list for PBXNativeTarget "ComboProgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C8D0B01B01C04500ACD6BA /* Debug */,
+				D3C8D0B11B01C04500ACD6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C8D08A1B01C04400ACD6BA /* Project object */;
+}
